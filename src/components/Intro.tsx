@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profileImg from "@/public/westylestuff-profile.png";
+import profileImg from "@/public/10strata-logo-green.png";
 
 const Intro = () => {
   return (
