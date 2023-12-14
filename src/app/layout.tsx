@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Josefin_Sans } from "next/font/google";
+import {
+  Inter,
+  Josefin_Sans,
+  Montserrat,
+  Merriweather,
+  Yrsa,
+} from "next/font/google";
 
 import "./globals.css";
 import { cn } from "@/lib/utils";
@@ -7,10 +13,31 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  weight: "variable",
+  subsets: ["latin"],
+});
+
+const merriweather = Merriweather({
+  variable: "--font-merriweather",
+  weight: ["300", "400", "700"],
+  subsets: ["latin"],
+});
+
+const yrsa = Yrsa({
+  variable: "--font-yrsa",
+  weight: ["500", "600", "700"],
+  subsets: ["latin"],
+});
 
 const josefin = Josefin_Sans({
   variable: "--font-josefin",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
@@ -46,8 +73,10 @@ export default function RootLayout({
       <body
         className={cn(
           "grainy bg-white text-foreground",
-          inter.className,
+          montserrat.className,
           josefin.variable,
+          merriweather.variable,
+          yrsa.variable,
         )}
       >
         <Navbar />
