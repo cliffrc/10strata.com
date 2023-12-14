@@ -1,6 +1,4 @@
-import React from "react";
 import { ActivityIcon, PenLine } from "lucide-react";
-import SectionHeader from "./SectionHeader";
 
 const About = () => {
   return (
@@ -35,8 +33,8 @@ const About = () => {
             <li className="mt-3">
               🤝 <strong>Empower Your Journey:</strong> Join hands with us to
               infuse your business journey with advanced AI and strategic
-              insights. Let's build a future where your business thrives with
-              smart technology.
+              insights. Let&apos;s build a future where your business thrives
+              with smart technology.
             </li>
             <li className="mt-3">
               🌐 <strong>Revolutionize Now:</strong> Redefine your online

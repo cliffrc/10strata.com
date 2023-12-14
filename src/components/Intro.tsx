@@ -47,9 +47,9 @@ const Intro = () => {
         Our expertise in advanced technologies like OpenAI, Next.js, and React,
         combined with a deep understanding of business strategies from AI role
         development to content repurposing and growth hacking, ensures that your
-        company is not just part of the AI revolution, but leading it. Let's
-        collaborate to turn your visions into reality, making your business not
-        just a player but a game-changer in your industry.
+        company is not just part of the AI revolution, but leading it.
+        Let&aspos;s collaborate to turn your visions into reality, making your
+        business not just a player but a game-changer in your industry.
       </p>
       <p className="mt-4">
         Transform with AI. Embrace the power of innovative AI assistants and
