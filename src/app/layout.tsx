@@ -47,7 +47,7 @@ export const metadata = {
     template: "%s | 10strata",
     default: "10strata", // a default is required when creating a template
   },
-  description: "An AI assistent company",
+  description: "An AI assistant company",
   keywords: ["AI Helpers", "API", "AI Assistants", "AI Web Apps"],
   generator: "Next.js",
   applicationName: "10strata.com",
