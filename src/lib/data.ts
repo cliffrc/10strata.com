@@ -18,22 +18,22 @@ export const navLinks = [
 ] as const;
 
 export const techServiceData = [
-  "TailwindCSS",
+  "OpenAI Assistants",
+  "Custom chatbots",
+  "Prompt Engineering",
+  "Fine-tuning OpenAI",
+  "API creation",
+  "API consumption",
   "Next.js",
-  "TypeScript",
   "React",
-  "react-hook-form",
-  "tRPC",
-  "Prisma",
-  "HTMX",
 ] as const;
 
 export const businessServiceData = [
-  "Social Media Marketing",
+  "AI Role development",
+  "Content Strategy",
   "Content Repurposing",
-  "Content Marketing",
   "Growth Hacking",
-  "Ideation (ChatGPT)",
+  "Ideation Strategy",
 ] as const;
 
 export const attributesServiceData = [
