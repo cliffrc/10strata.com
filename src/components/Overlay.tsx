@@ -1,6 +1,6 @@
 import React from "react";
 import QuoteCard from "./quote-card";
-import ourLogoImg from "@/public/10strata-logo.png";
+import ourLogoImg from "@/public/10strata-logo-vertical.png";
 import garyImg from "@/public/Gary_Marcus.jpg";
 import Image from "next/image";
 
@@ -9,7 +9,7 @@ const Overlay = () => {
     <div>
       <div className="fixed  left-[0vh] top-[2vh]  z-[1000] m-auto h-[98vh] w-[100vw] cursor-pointer rounded-2xl bg-zinc-200/10 backdrop-blur-sm" />
       <div className="fixed left-[10vw] top-[10vh] z-[1002] m-auto h-[360px] w-[480px]  rounded-2xl bg-white/90 p-10  ">
-        <div className="z-[1001] -mt-10 ml-2 flex -rotate-6 flex-col items-center gap-6 text-center">
+        <div className="z-[1001] -mt-4 ml-2 flex -rotate-6 flex-col items-center gap-6 text-center">
           <h6 className="border-1 small-caps text-4xl text-zinc-800 ">
             10strata.
           </h6>
