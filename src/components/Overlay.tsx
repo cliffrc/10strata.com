@@ -24,8 +24,11 @@ const Overlay = () => {
             <Image
               src={ourLogoImg}
               alt="10strata graphic"
-              height={240}
-              width={240}
+              priority
+              style={{
+                width: "240px",
+                height: "240px",
+              }}
               className="mt-2 rounded-xl bg-teal-500/90  outline-4 ring-4 ring-gray-300/40 ring-offset-2   "
             />
           </div>

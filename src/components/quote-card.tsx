@@ -22,8 +22,11 @@ const QuoteCard = ({
           <Image
             src={imgSrc}
             alt="{attribution}"
-            width={128}
-            height={128}
+            priority
+            style={{
+              width: "128px",
+              height: "128px",
+            }}
             className="sepia-[.7] sm:-rotate-[10deg]"
           />
         </div>
